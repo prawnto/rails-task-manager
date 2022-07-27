@@ -1,0 +1,8 @@
+<%= form_for(task, html: { id: "generic_form" }) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %> <br />
+  <%= f.label :details %>
+  <%= f.text_field :details %> <br />
+  <%= f.label :completed %>
+  <%= f.check_box :completed %> <br />
+<% end %>
